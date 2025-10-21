@@ -1,0 +1,91 @@
+/* --- Global & Layout Styles --- */
+body {
+    /* Full-screen centering with a clean background */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    /* Modern, clean font stack */
+    background-color: #ffffff;
+    /* Pure white background */
+    color: #2c3e50;
+    /* Dark, but not black, text */
+    text-align: center;
+    padding: 20px;
+}
+
+/* --- Header Style --- */
+h2 {
+    font-size: 1.1rem;
+    color: #95a5a6;
+    /* Subtle gray */
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 30px;
+    font-weight: 300;
+    /* Light weight */
+}
+
+/* --- Quote Style --- */
+#quote {
+    font-size: 2.2rem;
+    font-weight: 500;
+    /* Medium weight for emphasis */
+    color: #1c2833;
+    max-width: 800px;
+    line-height: 1.5;
+    margin-bottom: 25px;
+    padding: 0 10px;
+}
+
+/* --- Author Style --- */
+#author {
+    font-size: 1.2rem;
+    color: #34495e;
+    font-style: italic;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 50px;
+    /* Space above the button */
+    border-top: 1px solid #ecf0f1;
+    /* Very light, subtle separator */
+    padding-top: 15px;
+}
+
+/* --- Button Style --- */
+#random-quote {
+    /* Basic button styling */
+    padding: 12px 30px;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+
+    /* Modern, solid color design */
+    background-color: #3498db;
+    /* A vibrant blue */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    /* Slightly rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.1s ease, box-shadow 0.3s ease;
+}
+
+/* Button interaction states */
+#random-quote:hover {
+    background-color: #2980b9;
+    /* Slightly darker blue on hover */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+#random-quote:active {
+    /* A small press-down effect */
+    transform: translateY(2px);
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+}

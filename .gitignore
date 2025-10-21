@@ -1,0 +1,53 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+*.egg-info/
+.eggs/
+
+# Virtual environment
+.venv/
+venv/
+env/
+/bin/
+/include/
+/lib/
+/share/
+
+# Distribution / build files
+dist/
+build/
+*.egg
+*.whl
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+.coverage
+.tox/
+.pytest_cache/
+htmlcov/
+
+# Editor-specific files
+.idea/          # JetBrains IDEs (PyCharm, IntelliJ)
+.vscode/        # VS Code settings
+*.swp           # Vim swap files
+*~              # Emacs backup files
+
+# OS-specific files
+.DS_Store       # macOS
+Thumbs.db       # Windows
+ehthumbs.db     # Windows
+
+# Jupyter Notebook files
+.ipynb_checkpoints/
+
+# Miscellaneous
+*.log
+*.sqlite3       # Database files (e.g., Django's default sqlite)
+*.env           # Environment variables
+.env.*          # Environment variables
+.env
